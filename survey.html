@@ -1,0 +1,159 @@
+<!-- 
+Assignment 2
+SWE642
+Name: Mani Ratnam Injeti
+G#: G01025705
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computer Science | GMU</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div id="header">
+            <h2 class="textshadow">Computer Science Department</h2>
+            <h3 class="textshadow">George Mason University</h3 >
+            <div id="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li class="active"><a href="survey">Survey</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="horizontal"></div>
+        <div id="main">
+            <div id="survey">
+                <h3>Feedback Form</h3>
+                <form autocomplete="on">
+                    <table>
+                        <tr>
+                            <td>Username</td>
+                            <td><input type="text" name="username" required autofocus/></td>
+                        </tr>
+                        <tr>
+                            <td>Street Address</td>
+                            <td><textarea rows="6" cols="40" name="address" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>City</td>
+                            <td><input type="text" name="city" required/></td>
+                        </tr>
+                        <tr>
+                            <td>State</td>
+                            <td><input type="text" name="state" required/></td>
+                        </tr>
+                        <tr>
+                            <td>Zipcode</td>
+                            <td><input type="text" name="zipcode" required/></td>
+                        </tr>
+                        <tr>
+                            <td>Telephone</td>
+                            <td><input type="tel" name="telephone" placeholder="(xxx)-(xxx)-(xxxx)"/></td>
+                        </tr>
+                        <tr>
+                            <td>E-Mail</td>
+                            <td><input type="email" name="email" placeholder="username@domain.com"/></td>
+                        </tr>
+                        <tr>
+                            <td>Date of Survey</td>
+                            <td><input type="date" required/></td>
+                        </tr>
+                        <tr>
+                            <td>URL</td>
+                            <td><input type="url" placeholder="http://www.yourwebsite.com/"/></td>
+                        </tr>
+                        <tr>
+                            <td>What you liked <br /> the most?</td>
+                            <td>
+                                <br />
+                                <input type="checkbox" name="liked" value="Students" /> Students <br />
+                                <input type="checkbox" name="liked" value="Location" /> Location <br />
+                                <input type="checkbox" name="liked" value="Campus" /> Campus<br />
+                                <input type="checkbox" name="liked" value="Atmosphere" /> Atmosphere<br />
+                                <input type="checkbox" name="liked" value="Dorm Rooms" /> Dorm Rooms<br />
+                                <input type="checkbox" name="liked" value="Sports" id="sports"/> Sports<br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>How did you get interested<br /> in the University?</td>
+                            <td>
+                                <br />
+                                <input type="radio" name="interest" value="Friends" /> Friends <br />
+                                <input type="radio" name="interest" value="Television" /> Television <br />           
+                                <input type="radio" name="interest" value="Internet" /> Internet <br />
+                                <input type="radio" name="interest" value="Other" checked /> Other <br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Additional Comments</td>
+                            <td><textarea rows="6" cols="40"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Graduation Date</td>
+                            <td>
+                                <input list="graduation" name="gradmonth" placeholder="Month"/>
+                                <datalist id="graduation">
+                                    <option value="January">
+                                    <option value="February">
+                                    <option value="March">
+                                    <option value="April">
+                                    <option value="May">
+                                    <option value="June">
+                                    <option value="July">
+                                    <option value="August">
+                                    <option value="September">
+                                    <option value="October">
+                                    <option value="November">
+                                    <option value="December">
+                                </datalist>
+                                <input type="text" name="gradyear" placeholder="Year" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>User ID</td>
+                            <td><input type="text" name="userid" required/></td>
+                        </tr>
+                        <tr>
+                            <td>Movie ID</td>
+                            <td><input type="text" name="movieid" required/></td>
+                        </tr>
+                        <tr>
+                            <td>Rating ( 1 - 5)</td>
+                            <td>
+                                <input type="radio" name="rating" value="1" />
+                                <input type="radio" name="rating" value="2" />
+                                <input type="radio" name="rating" value="3" />
+                                <input type="radio" name="rating" value="4" />
+                                <input type="radio" name="rating" value="5" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Timestamp</td>
+                            <td><input type="datetime-local" name="timestamp"/></td>
+                        </tr>
+                        <tr>
+                            <td>Likelihood of recommending<br>this school to other students</td>
+                            <td>
+                                <select>
+                                    <option value="Very Likely" name="likelyhood">Very Likely</option>
+                                    <option value="Likely" name="likelyhood">Likely</option>
+                                    <option value="Unlikely" name="likelyhood">Unlikely</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" /></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div id="logo">
+            <a href="https://www2.gmu.edu/"><img src="logo.jpg" width="190px" height="120x" /></a>
+        </div>
+    </body>
+</html>
